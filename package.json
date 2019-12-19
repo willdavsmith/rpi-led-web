@@ -1,0 +1,19 @@
+{
+  "name": "rpi-led-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "browserify index.js -o public/bundle.js"
+  },
+  "author": "willdavsmith",
+  "license": "ISC",
+  "dependencies": {
+    "@jaames/iro": "^4.5.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1"
+  }
+}
